@@ -11,6 +11,10 @@
 		7D0C1D7A2B30FC8C009B4AB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C1D792B30FC8C009B4AB5 /* ContentView.swift */; };
 		7D0C1D7C2B30FC8D009B4AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1D7B2B30FC8D009B4AB5 /* Assets.xcassets */; };
 		7D0C1D7F2B30FC8D009B4AB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1D7E2B30FC8D009B4AB5 /* Preview Assets.xcassets */; };
+		7D0C1D882B3105FE009B4AB5 /* yesterday.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1D852B3105FE009B4AB5 /* yesterday.txt */; };
+		7D0C1D892B3105FE009B4AB5 /* third.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1D862B3105FE009B4AB5 /* third.txt */; };
+		7D0C1D8A2B3105FE009B4AB5 /* today.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C1D872B3105FE009B4AB5 /* today.txt */; };
+		7D0C1D8C2B31073C009B4AB5 /* Prompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C1D8B2B31073C009B4AB5 /* Prompts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		7D0C1D792B30FC8C009B4AB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D0C1D7B2B30FC8D009B4AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0C1D7E2B30FC8D009B4AB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D0C1D852B3105FE009B4AB5 /* yesterday.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = yesterday.txt; path = ../../yesterday.txt; sourceTree = "<group>"; };
+		7D0C1D862B3105FE009B4AB5 /* third.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = third.txt; path = ../../third.txt; sourceTree = "<group>"; };
+		7D0C1D872B3105FE009B4AB5 /* today.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = today.txt; path = ../../today.txt; sourceTree = "<group>"; };
+		7D0C1D8B2B31073C009B4AB5 /* Prompts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				7D0C1D772B30FC8C009B4AB5 /* Three_QuestionsApp.swift */,
 				7D0C1D792B30FC8C009B4AB5 /* ContentView.swift */,
+				7D0C1D862B3105FE009B4AB5 /* third.txt */,
+				7D0C1D872B3105FE009B4AB5 /* today.txt */,
+				7D0C1D852B3105FE009B4AB5 /* yesterday.txt */,
 				7D0C1D7B2B30FC8D009B4AB5 /* Assets.xcassets */,
 				7D0C1D7D2B30FC8D009B4AB5 /* Preview Content */,
+				7D0C1D8B2B31073C009B4AB5 /* Prompts.swift */,
 			);
 			path = "Three Questions";
 			sourceTree = "<group>";
@@ -126,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0C1D7F2B30FC8D009B4AB5 /* Preview Assets.xcassets in Resources */,
+				7D0C1D8A2B3105FE009B4AB5 /* today.txt in Resources */,
 				7D0C1D7C2B30FC8D009B4AB5 /* Assets.xcassets in Resources */,
+				7D0C1D892B3105FE009B4AB5 /* third.txt in Resources */,
+				7D0C1D882B3105FE009B4AB5 /* yesterday.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D0C1D7A2B30FC8C009B4AB5 /* ContentView.swift in Sources */,
+				7D0C1D8C2B31073C009B4AB5 /* Prompts.swift in Sources */,
 				7D0C1D782B30FC8C009B4AB5 /* Three_QuestionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
