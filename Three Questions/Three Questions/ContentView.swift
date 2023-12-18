@@ -62,8 +62,8 @@ struct ContentView: View {
 
         }
         .font(.largeTitle)
+        .multilineTextAlignment(.center)
         .padding()
-        
     }
 }
 
