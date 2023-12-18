@@ -11,10 +11,11 @@ class Prompts {
     static var yesterday = Prompts(name: "yesterday")
     static var today = Prompts(name: "today")
     static var third = Prompts(name: "third")
-    var individuals: [String]
+
+    private var individuals: [String]
 
     var random: String {
-        "Splunge"
+        individuals.randomElement() ?? "huh"
     }
 
     init(name: String) {
